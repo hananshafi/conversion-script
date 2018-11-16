@@ -7,8 +7,8 @@ import sys
 import os
 
 
-path = "C:/Users/hgani/Desktop/finalimages1/"
-path_originals = "C:/Users/hgani/Desktop/cert lab data/png images/DAIMLER_HIGH/"
+path = "path to new image folder"
+path_originals = "path to original image folder"
 if not os.path.exists(path):
     os.makedirs(path)
 
